@@ -1,0 +1,31 @@
+package java_crud_simple_project_using_jdbc_statement.dto;
+
+public class StudentDto {
+	private int studentId;
+	private String studentName ;
+	
+	
+	public StudentDto() {
+		super();
+		
+	}
+	public StudentDto(int studentId, String studentName) {
+		super();
+		this.studentId = studentId;
+		this.studentName = studentName;
+	}
+	public int getStudentId() {
+		return studentId;
+	}
+	public void setStudentId(int studentId) {
+		this.studentId = studentId;
+	}
+	public String getStudentName() {
+		return studentName;
+	}
+	public void setStudentName(String studentName) {
+		this.studentName = studentName;
+	}
+	
+
+}
