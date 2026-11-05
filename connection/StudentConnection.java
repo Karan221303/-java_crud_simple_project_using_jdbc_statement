@@ -12,7 +12,7 @@ public class StudentConnection {
 		
 		String url="jdbc:mysql://localhost:3306/BCA";
 		String user="root";
-		String pass="root123";
+		String pass="";
 		
 		return DriverManager.getConnection(url, user, pass);
 	} catch (ClassNotFoundException | SQLException e) {
